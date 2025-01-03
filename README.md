@@ -12,6 +12,7 @@ Ensure you have the following installed on your system:
 - PostgreSQL
 - Virtualenv
 - Git
+- PgAdmin4 (optional, for database management)
 
 ---
 
@@ -75,7 +76,12 @@ FRONTEND_URL=http://127.0.0.1:8000
    CREATE DATABASE "ecommerce-api";
    ```
 
-3. Ensure the `.env` file is updated with the correct database details before proceeding.
+3. Alternatively, use PgAdmin4:
+   - Open PgAdmin4 and log in with your PostgreSQL credentials.
+   - Navigate to "Databases" > "Create" > "Database".
+   - Enter the database name (`ecommerce-api`) and save.
+
+4. Ensure the `.env` file is updated with the correct database details before proceeding.
 
 ### 6. Apply Migrations
 
@@ -127,11 +133,12 @@ All tests are located in the `products/tests.py` file and cover key API function
 
 ---
 
-## API Documentation
+## API Documentation and Testing
 
-The project uses **drf\_yasg** to generate Swagger/OpenAPI documentation. Visit:
+The project supports API documentation and testing through the following tools:
 
 - Swagger UI: `http://127.0.0.1:8000/api/docs/`
+- Postman Documentation: [Postman Link](https://documenter.getpostman.com/view/12478388/2sAYJ99J1q#d7a7413d-8fd3-4d07-8eb4-261883a8381d)
 
 ---
 
