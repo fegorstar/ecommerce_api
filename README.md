@@ -141,14 +141,3 @@ The project supports API documentation and testing through the following tools:
 - Postman Documentation: [Postman Link](https://documenter.getpostman.com/view/12478388/2sAYJ99J1q#d7a7413d-8fd3-4d07-8eb4-261883a8381d)
 
 ---
-
-## Contributions
-
-Feel free to fork this repository and submit pull requests. Contributions are welcome!
-
----
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
